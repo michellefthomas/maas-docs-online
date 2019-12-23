@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="How to Use the Solace Cloud REST API to Manage Services"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://www.restapitutorial.com/lessons/whatisrest.html" />
+    <Link
+      Url="https://solace.com/cloud/" />
+    <Link
+      Url="https://documenter.getpostman.com/view/3081638/RWM8SWza" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_1.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_2.jpg" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens/create" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_3.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_4.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_5.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_6.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_7.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_8.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_9.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_10.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_11.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://www.restapitutorial.com/lessons/whatisrest.html" />
+    <Link
+      Url="https://solace.com/cloud/" />
+    <Link
+      Url="https://documenter.getpostman.com/view/3081638/RWM8SWza" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_1.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_2.jpg" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens/create" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_3.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_4.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_5.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_6.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_7.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_8.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_9.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_10.jpg" />
+    <Link
+      Url="Content/Resources/Images/use_api_tokens_11.jpg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

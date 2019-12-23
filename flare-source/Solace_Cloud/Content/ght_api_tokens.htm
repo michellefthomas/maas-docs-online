@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+<meta charset="utf-8" />
+
+<title>How to Manage API Tokens</title>
+<link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="how-to-manage-api-tokens">
+<h1 class="title">How to Manage API Tokens</h1>
+
+<p>You need an API token to authenticate and authorize REST requests made to PubSub+ Cloud's REST API.
+When creating an API token, you will configure what permissions it has (i.e., a subset of the permissions you have when you log in to PubSub+ Cloud).</p>
+<div class="section" id="create-an-api-token">
+<h1>Create an API Token</h1>
+<p>The following steps will illustrate how to create an API token that has the permissions to retrieve, create and delete messaging services.</p>
+<ol class="arabic simple">
+<li><p>Login to PubSub+ Cloud.</p></li>
+<li><p>Click on your name in the right side of the menu bar to navigate to Token Management.</p></li>
+</ol>
+<a class="reference external image-reference" href="https://console.solace.cloud/api-tokens"><img alt="../img/use_api_tokens_1.jpg" src="Resources/Images/use_api_tokens_1.jpg" /></a>
+<ol class="arabic simple" start="3">
+<li><p>Click the <strong>Create Token</strong> button.</p></li>
+</ol>
+<a class="reference external image-reference" href="https://console.solace.cloud/api-tokens"><img alt="../img/use_api_tokens_2.jpg" src="Resources/Images/use_api_tokens_2.jpg" /></a>
+<ol class="arabic simple" start="4">
+<li><p>Give the token a name and enable these permissions:</p></li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li><p>Get My Services</p></li>
+<li><p>Create Services</p></li>
+<li><p>Delete My Services</p></li>
+</ul>
+</blockquote>
+<a class="reference external image-reference" href="https://console.solace.cloud/api-tokens/create"><img alt="../img/use_api_tokens_3.jpg" src="Resources/Images/use_api_tokens_3.jpg" /></a>
+<ol class="arabic simple" start="5">
+<li><p>Click the <strong>Generate Token</strong> button.</p></li>
+<li><p>Copy the token to your clipboard by clicking the <strong>Copy</strong> button. <strong>Note:</strong> You will not see this again for security reasons. If you lose the token, you can always regenerate the token or create a new one.</p></li>
+</ol>
+<p>Now you can use this token to manage messaging services using PubSub+ Cloud APIs.</p>
+<p>You will need to use this token in the following REST header to all calls you make:</p>
+<p><span class="docutils literal">Authorization: Bearer &lt;Your New Token&gt;</span></p>
+<p>Note: A token's permissions cannot be modified once it is created. You can simply create a new token if you need different permissions.</p>
+</div>
+<div class="section" id="deleting-an-api-token">
+<h1>Deleting an API Token</h1>
+<p>To Delete a token:</p>
+<ol class="arabic simple">
+<li><p>Login to PubSub+ Cloud.</p></li>
+<li><p>Click on your name in the right side of the menu bar to navigate to Token Management.</p></li>
+<li><p>Click <strong>Delete</strong> on the token you want to delete.</p></li>
+</ol>
+</div>
+</div>
+</body>
+</html>

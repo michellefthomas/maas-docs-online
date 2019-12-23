@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="How to Use the Solace Cloud REST API to Manage Client Profiles"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://www.restapitutorial.com/lessons/whatisrest.html" />
+    <Link
+      Url="https://documenter.getpostman.com/view/4953125/SVmtzzzk" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens" />
+    <Link
+      Url="Content/Resources/Images/userApi_1.png" />
+    <Link
+      Url="Content/Resources/Images/userApi_2.png" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens/create" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_1.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_2.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_3.png" />
+    <Link
+      Url="https://console.solace.cloud/services" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_4.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_5.png" />
+    <Link
+      Url="https://docs.solace.com/Configuring-and-Managing/Configuring-Client-Profiles.htm" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_6.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_7.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_8.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_9.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_10.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_11.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_12.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_13.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://www.restapitutorial.com/lessons/whatisrest.html" />
+    <Link
+      Url="https://documenter.getpostman.com/view/4953125/SVmtzzzk" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens" />
+    <Link
+      Url="Content/Resources/Images/userApi_1.png" />
+    <Link
+      Url="Content/Resources/Images/userApi_2.png" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens/create" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_1.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_2.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_3.png" />
+    <Link
+      Url="https://console.solace.cloud/services" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_4.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_5.png" />
+    <Link
+      Url="https://docs.solace.com/Configuring-and-Managing/Configuring-Client-Profiles.htm" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_6.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_7.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_8.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_9.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_10.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_11.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_12.png" />
+    <Link
+      Url="Content/Resources/Images/clientProfileApi_13.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

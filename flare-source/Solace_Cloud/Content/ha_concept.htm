@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta charset="utf-8" xmlns="http://www.w3.org/1999/xhtml" /><title xmlns="http://www.w3.org/1999/xhtml">PubSub+ Cloud HA Overview</title>
+        <link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" xmlns="http://www.w3.org/1999/xhtml" />
+    </head>
+    <body>
+        <div class="document" id="pubsub-cloud-ha-overview">
+            <h1 class="title">PubSub+ Cloud HA Overview</h1>
+            <p>PubSub+ Cloud offers service types which provide a PubSub+ Broker deployed in high-availability (HA) redundancy groups for fault
+tolerance. HA redundancy provides 1:1 message broker sparing to increase overall service availability. If one of the message
+brokers fails or is taken out of service, the other message broker automatically takes over and provides service to the clients
+that were previously served by the now-out-of-service message broker.</p>
+            <p>This section introduces HA concepts and network topologies supported in PubSub+ Cloud.
+The core underlying feature of an HA redundancy group can be found at <a class="reference external" href="https://docs.solace.com/Overviews/SW-Broker-Redundancy-and-Fault-Tolerance.htm">Redundancy and Fault Tolerance</a> .</p>
+            <p>PubSub+ Cloud automates this HA redundancy group setup, and makes it easy to use.</p>
+            <div class="section" id="concepts">
+                <h1>Concepts</h1>
+                <div class="figure align-right" style="width: 380px;">
+                    <img alt="../img/HA_Model_Overview.png" src="Resources/Images/HA_Model_Overview.png" />
+                </div>
+                <p>PubSub+ Cloud provides HA by using an Active-Standby model with an arbiter node (Monitoring Node) for split-brain detection.
+This requires three nodes each running the software message broker on three nodes:</p>
+                <ul class="simple">
+                    <li>
+                        <p>Primary node</p>
+                    </li>
+                    <li>
+                        <p>Backup node</p>
+                    </li>
+                    <li>
+                        <p>Monitoring node</p>
+                    </li>
+                </ul>
+                <p>The Primary and Backup nodes both run the PubSub+ Broker software under the messaging node role, while the Monitor Node runs
+it under the monitoring node role. Each of their respective roles, is fixed by the configuration and never changes.</p>
+                <p>When in operation, the Primary and Backup nodes will assume one of these activity states: <strong>Active</strong> or <strong>Standby</strong>. At any one point in
+time, one node is <strong>Active</strong>, the other on is <strong>Standby</strong></p>
+                <p>Upon a failover, connections to the PubSub+ Broker are switched over from the <strong>Active</strong> to the <strong>Standby</strong> node automatically.</p>
+            </div>
+            <div class="section" id="high-availability-in-pubsub-cloud">
+                <h1>High availability in PubSub+ Cloud</h1>
+                <div class="figure align-right" style="width: 300px;">
+                    <img alt="../img/PubSub_Cloud_Ha_Diagram.png" src="Resources/Images/PubSub_Cloud_Ha_Diagram.png" />
+                </div>
+                <p>The goal of PubSub+ Cloud is to make the usage of the HA Redundancy Group as simple as possible. Typically, applications would
+have to provide a host list, i.e. one IP address for the Primary node and another for the Backup node. When using the Solace Enterprise
+APIs, the switchover would be handled by the API automatically.</p>
+                <p>This approach (providing hosts list) will not work for 3rd-party Messaging APIs, therefore PubSub+ Cloud simplifies this by having a single
+DNS entry for applications to use (behind a load balancer) abstracting away the switchover between Primary and Backup in the event of a failure.</p>
+            </div>
+            <div class="section" id="how-to-create-an-ha-redundancy-group-in-pubsub-cloud">
+                <h1>How to Create an HA Redundancy Group in PubSub+ Cloud</h1>
+                <p>The following service types deploy an HA redundancy group by default:</p>
+                <ul class="simple">
+                    <li>
+                        <p>Professional (Standard account)</p>
+                    </li>
+                    <li>
+                        <p>Enterprise (Enterprise account)</p>
+                    </li>
+                </ul>
+                <div class="figure" style="width: 512px;">
+                    <img alt="../img/HA_Service_How_1.png" src="Resources/Images/HA_Service_How_1.png" />
+                </div>
+                <p>PubSub+ Cloud automates all of the configuration and setup when a user creates the service. Once the service is created, applications can
+use the dns name entry provided in the connectivity tab in PubSub+ Cloud.</p>
+                <div class="figure" style="width: 512px;">
+                    <img alt="../img/HA_Service_How_2.png" src="Resources/Images/HA_Service_How_2.png" />
+                </div>
+            </div>
+            <div class="section" id="conclusion">
+                <h1>Conclusion</h1>
+                <p>PubSub+ Cloud provide a robust &amp; automatic redundant and fault tolerant solution for applications requiring high availability. PubSub+
+Cloud lets users bring up an HA group with just a few clicks.</p>
+            </div>
+        </div>
+    </body>
+</html>

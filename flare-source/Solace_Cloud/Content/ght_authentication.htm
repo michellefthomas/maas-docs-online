@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+<meta charset="utf-8" />
+
+<title>How to Configure Authentication</title>
+<link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="how-to-configure-authentication">
+<h1 class="title">How to Configure Authentication</h1>
+
+<p>You can manage messaging services authentication with PubSub+ Cloud.</p>
+<p>PubSub+ Cloud allows microservices to connect to your messaging service with Basic Authentication, and Client-Certificate Authentication.</p>
+<ul class="simple">
+<li><p><strong>Note</strong>: Client-Certificate Authentication is only supported on dedicated infrastructures (not Free service types).</p></li>
+</ul>
+<div class="section" id="configure-basic-authentication">
+<h1>Configure Basic Authentication:</h1>
+<ul class="simple">
+<li><p>Note: Basic Authentication is the default setting for a PubSub+ Cloud service.</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>Go to your messaging services page by selecting Services from the top navigation bar.</p></li>
+<li><p>Select your messaging service to navigate to messaging service details.</p></li>
+<li><p>On the service details page, navigate to the Manage tab.</p></li>
+</ol>
+<div class="figure">
+<img alt="../img/service_management.png" src="Resources/Images/service_management.png" />
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Click on Authentication.</p></li>
+</ol>
+<div class="figure">
+<img alt="../img/service_authentication.png" src="Resources/Images/service_authentication.png" />
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Toggle Basic Authentication, and click Save.</p></li>
+</ol>
+<ul class="simple">
+<li><p>Note: If you disable Basic Authentication then an error will be showing stating 'You have authentication disabled. Your messaging service is accessible by everyone.' This is not recommended.</p></li>
+</ul>
+</div>
+<div class="section" id="configure-client-certification">
+<h1>Configure Client Certification:</h1>
+<ol class="arabic simple">
+<li><p>Go to your messaging services page by selecting Services from the top navigation bar.</p></li>
+<li><p>Select your messaging service to navigate to messaging service details.</p></li>
+<li><p>On the service details page, navigate to the Manage tab.</p></li>
+<li><p>Click on Authentication.</p></li>
+<li><p>Toggle Client Certificate Authentication.</p></li>
+<li><p>Toggle Validate Certificate Dates.</p></li>
+<li><p>Click Save.</p></li>
+</ol>
+</div>
+<div class="section" id="configure-certificate-authority">
+<h1>Configure Certificate Authority:</h1>
+<p>By default a certificate called DigiCert is provided for all services types. You may choose to secure your client connections with that certificate or upload your own certificate.</p>
+<ol class="arabic simple">
+<li><p>Go to your messaging services page by selecting <strong>Services</strong> from the top navigation bar.</p></li>
+<li><p>Select your messaging service to navigate to messaging service details.</p></li>
+<li><p>On the service details page, navigate to the Manage tab.</p></li>
+<li><p>Click on Authentication.</p></li>
+<li><p>Click on Certificate Authorities tab.</p></li>
+</ol>
+<div class="figure">
+<img alt="../img/certificate_authority.png" src="Resources/Images/certificate_authority.png" />
+</div>
+<ol class="arabic simple" start="6">
+<li><p>Upload your cerificate of choice. You may also delete cerificates as well.</p></li>
+</ol>
+<p>To enable your applications to use client-certificates please see <a class="reference external" href="https://docs.solace.com/Solace-PubSub-Messaging-APIs/Developer-Guide/Defining-Client-Authentication.htm">Defining Client Authentication Info</a>.</p>
+</div>
+</div>
+</body>
+</html>

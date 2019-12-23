@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+<meta charset="utf-8" />
+
+<title>Prepaid Subscriptions</title>
+<link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="prepaid-subscriptions">
+<h1 class="title">Prepaid Subscriptions</h1>
+
+<p>Prepaid subscriptions are a way to pay upfront for PubSub+ Cloud messaging services at a discounted price.
+Subscriptions come with service usage which are used by PubSub+ Cloud messaging services before
+falling back to on-demand rates.</p>
+<div class="section" id="details">
+<h1>Details</h1>
+<p>Subscriptions are purchased for a set term, typically a year at a time (i.e. 12 months).
+At the beginning of every month, each active subscription is translated into the number of hours in the month for each given service type (for example, a month with 31 days translates to 744 hours).</p>
+<p>Each PubSub+ Cloud messaging service uses hours while it is running, rounded up to the nearest hour.</p>
+<p>At the end of each month, the total number of service hours per type are calculated.
+Each active subscription for the month reduces the total hours used of the respective service type and the remainder is charged at on-demand rates.</p>
+<p>Unused subscription service usage is not rolled over to the next month.</p>
+</div>
+<div class="section" id="example">
+<h1>Example</h1>
+<p>Assume that the following subscriptions were purchased, each with 6 months remaining in their term:</p>
+<ul class="simple">
+<li><p>2x Enterprise (Kilo) subscription</p></li>
+<li><p>1x Enterprise (Mega) subscription</p></li>
+</ul>
+<p>This means for 6 months, the following usage will be included without any extra cost per month:</p>
+<ul class="simple">
+<li><p>2 * (24 * number of days in month) hours of kilo service usage (ex. 1488 hours for months with 31 days)</p></li>
+<li><p>(24 hours * number of days in month) hours of mega service usage (ex. 744 hours for months with 31 days)</p></li>
+</ul>
+<p>Suppose in January, the following services were created:</p>
+<ul class="simple">
+<li><p>3x Enterprise (Kilo) services, each running for the entire month</p></li>
+<li><p>2x Enterprise (Mega) services, each running for half of the month</p></li>
+<li><p>1x Enterprise (Giga) service, running for 1 hour and 54 minutes</p></li>
+</ul>
+<p>At the end of the month, the usage is as follows:</p>
+<ul class="simple">
+<li><p>2232 hours of kilo service usage (1 month of hours x 3 kilo services)</p></li>
+<li><p>744 hours of mega service usage (0.5 month of hours x 2 mega services)</p></li>
+<li><p>2 hours of giga service usage (1 hour and 54 minutes rounded up)</p></li>
+</ul>
+<p>After subtracting the included usage from the prepaid subscription, the following will be charged at the on-demand rates:</p>
+<ul class="simple">
+<li><p>744 hours of kilo service usage (2232 kilo hours used - 1488 kilo hours from subscriptions)</p></li>
+<li><p>0 hours of mega service usage (744 mega hours - 744 mega hours from subscription)</p></li>
+<li><p>2 hours of giga service usage (2 giga hours - 0 giga hours from subscriptions)</p></li>
+</ul>
+<p>Starting July, all service usage will be considered on-demand usage unless subscriptions are renewed.</p>
+</div>
+</div>
+</body>
+</html>

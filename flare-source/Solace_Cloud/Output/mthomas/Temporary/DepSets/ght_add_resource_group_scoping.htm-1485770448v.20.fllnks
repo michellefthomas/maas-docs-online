@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="How to Add New Azure Resource Group for New Messaging Services in Private Azure Cloud"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/ght_add_resource_group_scoping.htm" />
+    <Link
+      Url="https://www.restapitutorial.com/lessons/whatisrest.html" />
+    <Link
+      Url="https://shell.azure.com/" />
+    <Link
+      Url="https://docs.microsoft.com/en-us/cli/azure/install-azure-cli" />
+    <Link
+      Url="https://documenter.getpostman.com/view/3728825/SW7bzRnP" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens" />
+    <Link
+      Url="Content/Resources/Images/userApi_1.png" />
+    <Link
+      Url="Content/Resources/Images/userApi_2.png" />
+    <Link
+      Url="Content/Resources/Images/userApi_4.png" />
+    <Link
+      Url="Content/Resources/Images/userApi_5.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/ght_add_resource_group_scoping.htm#id1" />
+    <Link
+      Url="Content/ght_add_resource_group_scoping.htm#id2" />
+    <Link
+      Url="Content/ght_add_resource_group_scoping.htm#id3" />
+    <Link
+      Url="Content/ght_add_resource_group_scoping.htm#id4" />
+    <Link
+      Url="Content/ght_add_resource_group_scoping.htm#id5" />
+    <Link
+      Url="Content/ght_add_resource_group_scoping.htm#id6" />
+    <Link
+      Url="Content/ght_add_resource_group_scoping.htm#id7" />
+    <Link
+      Url="Content/ght_add_resource_group_scoping.htm#id8" />
+    <Link
+      Url="https://www.restapitutorial.com/lessons/whatisrest.html" />
+    <Link
+      Url="https://shell.azure.com/" />
+    <Link
+      Url="https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest" />
+    <Link
+      Url="https://documenter.getpostman.com/view/3728825/SW7bzRnP" />
+    <Link
+      Url="https://console.solace.cloud/api-tokens" />
+    <Link
+      Url="Content/Resources/Images/userApi_1.png" />
+    <Link
+      Url="Content/Resources/Images/userApi_2.png" />
+    <Link
+      Url="Content/Resources/Images/userApi_4.png" />
+    <Link
+      Url="Content/Resources/Images/userApi_5.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

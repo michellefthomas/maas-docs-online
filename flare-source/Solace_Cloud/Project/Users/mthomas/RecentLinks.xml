@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecentLinks>
+    <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
+        <Link Value="C:\GitHub\MT-maas-docs-online\flare-source\Solace_Cloud\Content\Resources\Images\connectivity_2.png" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
+        <Link Value="C:\GitHub\MT-maas-docs-online\flare-source\Solace_Cloud\Content\gf_faqs.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage">
+        <Link Value="C:\GitHub\MT-maas-docs-online\flare-source\Solace_Cloud\Content\Resources\Videos\createservice.mp4" />
+    </Dialog>
+</RecentLinks>

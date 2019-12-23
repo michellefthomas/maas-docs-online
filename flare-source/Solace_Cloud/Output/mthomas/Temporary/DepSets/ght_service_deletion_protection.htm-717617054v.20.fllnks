@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="How to Use Deletion Protection"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/Resources/Images/service_protected_1.png" />
+    <Link
+      Url="Content/Resources/Images/service_not_protected_1.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/Resources/Images/service_protected_1.png" />
+    <Link
+      Url="Content/Resources/Images/service_not_protected_1.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

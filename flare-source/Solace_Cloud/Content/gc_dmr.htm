@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+<meta charset="utf-8" />
+
+<title>Dynamic Message Routing in PubSub+ Cloud</title>
+<link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="dynamic-message-routing-in-pubsub-cloud">
+<h1 class="title">Dynamic Message Routing in PubSub+ Cloud</h1>
+
+<p>In PubSub+ Cloud, all enterprise messaging services are created with the Dynamic Message Routing (DMR) feature enabled. To learn more about DMR,
+check out <a class="reference external" href="https://docs.solace.com/Configuring-and-Managing/DMR.htm">the official documentation in the Solace Tech Docs</a>.</p>
+<p>The following PubSub+ Cloud service types are DMR enabled:</p>
+<ul class="simple">
+<li><p>Starter (Standard account)</p></li>
+<li><p>Professional (Standard account)</p></li>
+<li><p>Developer (Enterprise account)</p></li>
+<li><p>Enterprise (Enterprise account)</p></li>
+</ul>
+<p>A DMR cluster is automatically configured on the PubSub+ Broker and enabled within the message VPN. The password
+for cluster communication is stored in PubSub+ Cloud and available from the <strong>Status</strong> tab on the service details page, along with all other relevant DMR cluster
+information.</p>
+<p>Note that in PubSub+ Cloud, you should only use external links to create event meshes. Internal links will be managed for you by PubSub+ Cloud. To create DMR cluster links, use the
+<a class="reference external" href="https://docs.solace.com/Configuring-and-Managing/DMR-Examples.htm">click-to-connect feature</a> in the PubSub+ Manager.</p>
+</div>
+</body>
+</html>

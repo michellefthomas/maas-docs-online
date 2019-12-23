@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+<meta charset="utf-8" />
+
+<title>How to Create an Event Mesh in PubSub+ Cloud</title>
+<link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="how-to-create-an-event-mesh-in-pubsub-cloud">
+<h1 class="title">How to Create an Event Mesh in PubSub+ Cloud</h1>
+
+<p>An Event Mesh is a configurable and dynamic infrastructure layer for distributing events among decoupled applications,
+cloud services and devices. <a class="reference external" href="https://solace.com/what-is-an-event-mesh">Click here</a> to learn more about what an Event Mesh is.</p>
+<p>The Event Mesh feature in PubSub+ Cloud is in an Alpha state. Once fully developed, you will be able to use this feature to view, define, create, and manage an Event Mesh that fits your needs.</p>
+<p>With this release, you can:</p>
+<ul class="simple">
+<li><p>See where all your data centers are on a map</p></li>
+<li><p>View the potential associations that would be used to create a mesh</p></li>
+<li><p>Plan how your mesh can be constructed to solve your business problems</p></li>
+<li><p>See the appropriate details of a service that helps you define an Event Mesh</p></li>
+<li><p>As this is an Alpha release, weâ€™d love to get your feedback. You will find a â€˜feedbackâ€™ control in the bottom left of the screen which you can use to let us know what you think.</p></li>
+</ul>
+<div class="section" id="creating-an-event-mesh">
+<h1>Creating an Event Mesh</h1>
+<p>To create an Event Mesh, start by creating multiple enterprise messaging services to bridge together into an Event Mesh. Note that the messaging service can not be of the Free service type, else it will not be eligible for Dynamic Message Routing and not be able to be used in an Event Mesh. After you have your messaging services, you can begin creating an Event Mesh.
+Note that you only see datacenters on the Event Mesh map in which you have valid messaging services with DMR enabled.</p>
+<ol class="arabic simple">
+<li><p>Navigate to the <strong>Event Mesh</strong> tab.</p></li>
+<li><p>Press the <strong>Create Event Mesh</strong> button.</p></li>
+</ol>
+<img alt="../img/eventmesh1.jpg" src="Resources/Images/eventmesh1.jpg" />
+<ol class="arabic simple" start="3">
+<li><p>Enter an Event Mesh name and optionally choose a color for your links to be displayed in.</p></li>
+</ol>
+<img alt="../img/eventmesh2.jpg" src="Resources/Images/eventmesh2.jpg" />
+<ol class="arabic simple" start="4">
+<li><p>Select your services that you want to partake in the Event Mesh by selecting the datacenter from the map, then selecting the service tile. Repeat as necessary.</p></li>
+</ol>
+<img alt="../img/eventmesh3.jpg" src="Resources/Images/eventmesh3.jpg" />
+<ol class="arabic simple" start="5">
+<li><p>Press the green <strong>Create Event Mesh</strong> button.</p></li>
+</ol>
+<img alt="../img/eventmesh4.jpg" src="Resources/Images/eventmesh4.jpg" />
+<ol class="arabic simple" start="6">
+<li><p>Visualize your Event Mesh in the map.</p></li>
+</ol>
+<img alt="../img/eventmesh5.jpg" src="Resources/Images/eventmesh5.jpg" />
+<p>Congratulations, you have succesfully created your first Event Mesh! Next, follow the steps below to turn your Event Mesh visualization into a true Event Mesh.</p>
+</div>
+<div class="section" id="configuring-dmr-for-pubsub-cloud-services-via-the-pubsub-manager">
+<h1>Configuring DMR for PubSub+ Cloud Services via the PubSub+ Manager</h1>
+<p>By configuring Dynamic Message Routing (DMR) for PubSub+ Cloud messaging services, you can realize your Event Mesh, allowing you to publish messages to one messaging service
+and receive the messages in another where you have a matching subscription. Follow the steps below to make it happen.</p>
+<ol class="arabic simple">
+<li><p>While viewing your Event Mesh, select the datacenter you would like to initiate the connection from and the messaging service within that datacenter.</p></li>
+</ol>
+<img alt="../img/eventmesh6.jpg" src="Resources/Images/eventmesh6.jpg" />
+<ol class="arabic simple" start="2">
+<li><p>Launch the PubSub+ Manager for the messaging service by pressing the <strong>PubSub+ Manager</strong></p></li>
+</ol>
+<img alt="../img/eventmesh7.jpg" src="Resources/Images/eventmesh7.jpg" />
+<ol class="arabic simple" start="3">
+<li><p>Navigate to the <strong>Clustering</strong> view in the main side menu and select the <strong>External Links</strong> tab.</p></li>
+</ol>
+<img alt="../img/eventmesh7.jpg" src="Resources/Images/eventmesh7.jpg" />
+<ol class="arabic simple" start="4">
+<li><p>Press the <strong>Click to Connect</strong> button.</p></li>
+</ol>
+<img alt="../img/eventmesh8.jpg" src="Resources/Images/eventmesh8.jpg" />
+<ol class="arabic simple" start="5">
+<li><p>In the <strong>Where to Connect To</strong> section, choose the <strong>Solace Cloud</strong> button, enter your <strong>Username</strong> and <strong>Password</strong> for PubSub+ Cloud and press the <strong>Configure DMR Bridge</strong> button.</p></li>
+</ol>
+<img alt="../img/eventmesh9.jpg" src="Resources/Images/eventmesh9.jpg" />
+<ol class="arabic simple" start="6">
+<li><p>From the <strong>Local Message VPN</strong> section, choose the message VPN from your local messaging service. From the <strong>Remote Message Service</strong> choose the remote messaging service to connect to. Press the <strong>Remote Connection Setup</strong> button.</p></li>
+</ol>
+<img alt="../img/eventmesh10.jpg" src="Resources/Images/eventmesh10.jpg" />
+<ol class="arabic simple" start="7">
+<li><p>From the <strong>Remote Message Service Connection</strong> tab, choose the <strong>Local</strong> button and set the <strong>Authentication Scheme</strong> to <strong>Basic</strong>. The other fields will already be filled.</p></li>
+</ol>
+<img alt="../img/eventmesh11.jpg" src="Resources/Images/eventmesh11.jpg" />
+<ol class="arabic simple" start="8">
+<li><p>Select the switch to enable TLS. Then, add a Trusted Common Name identical to the hostname of your remote messaging service. You can find the hostname in the <strong>Connect</strong> tab of your service details.</p></li>
+</ol>
+<img alt="../img/eventmesh12.jpg" src="Resources/Images/eventmesh12.jpg" />
+<ol class="arabic simple" start="9">
+<li><p>Finish setting up your link. This will result in a DMR bridge being created between your messaging services. Continue the steps between the other messaging services you want to partake in your Event Mesh.</p></li>
+</ol>
+<img alt="../img/eventmesh13.jpg" src="Resources/Images/eventmesh13.jpg" />
+<p>Congratulations, you have realized your Event Mesh. To see it in action, use the <a href="#id1"><span class="problematic" id="id2">:doc:`Try Me tab &lt;../group_getting_started/ggs_tryme&gt;`</span></a> in PubSub+ Cloud to create a subscription in one messaging service, publish
+from another messaging service and see your message dynamically forward from one messaging service to the other.</p>
+<div class="system-message" id="id1">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_howto\ght_event_mesh.rst</span>, line 88); <em><a href="#id2">backlink</a></em></p>
+<p>Unknown interpreted text role "doc".</p>
+</div>
+</div>
+</div>
+</body>
+</html>

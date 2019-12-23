@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="How to Increase Your Capacity or Number of Services"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://console.solace.cloud/login" />
+    <Link
+      Url="Content/Resources/Images/ght_nav_manage_service_limits.png" />
+    <Link
+      Url="https://console.solace.cloud/account-details/service-limits" />
+    <Link
+      Url="Content/Resources/Images/ght_service_limit_increase_dialog.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://console.solace.cloud/login" />
+    <Link
+      Url="Content/Resources/Images/ght_nav_manage_service_limits.png" />
+    <Link
+      Url="https://console.solace.cloud/account-details/service-limits" />
+    <Link
+      Url="Content/Resources/Images/ght_service_limit_increase_dialog.jpg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

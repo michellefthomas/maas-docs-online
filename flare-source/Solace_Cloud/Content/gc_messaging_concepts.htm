@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+<meta charset="utf-8" />
+
+<title>An Introduction to Messaging</title>
+<link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="an-introduction-to-messaging">
+<h1 class="title">An Introduction to Messaging</h1>
+
+<p>In development terms, <strong>Messaging</strong> refers to the set of concepts that lets computer systems, applications or services share
+information without requiring coupling <a class="footnote-reference brackets" href="#id2" id="id1">1</a> or awareness of one another's location.</p>
+<p>So what are the core concepts that you need to know:</p>
+<ul class="simple">
+<li><p><strong>Publisher</strong>: the entity that sends or publishes the <strong>Message</strong> - Also called <strong>Producer</strong></p></li>
+<li><p><strong>Message</strong> or <strong>Event</strong>: what the <strong>Publisher</strong> wants to say to the <strong>Subscriber</strong></p></li>
+<li><p><strong>Subscriber</strong>: the ultimate receiver of the <strong>Message</strong> or <strong>Event</strong> - Also called <strong>Consumer</strong></p></li>
+</ul>
+<div class="figure align-right" style="width: 380px;">
+<img alt="../img/concept_pubsub_01.gif" src="Resources/Images/concept_pubsub_01.gif" />
+</div>
+<p>In addition:</p>
+<ul class="simple">
+<li><p>A <strong>Message</strong> typically has a destination that decouples the <strong>Publisher</strong> from the <strong>Subscriber</strong></p></li>
+<li><dl class="simple">
+<dt>A destination can be a <strong>Topic</strong> or a <strong>Queue</strong>:</dt>
+<dd><ul>
+<li><p><strong>Topic</strong> when the <strong>Message</strong> is intended to be consumed by more than one <strong>Subscribers</strong></p></li>
+<li><p><strong>Queue</strong> when the <strong>Message</strong> is intended to be consumed by at most one <strong>Subscriber</strong></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<dl class="footnote brackets">
+<dt class="label" id="id2"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>The idea is that we should try to keep the coupling between classes in our systems as 'loose' as possible:
+hence 'loose coupling' or sometimes 'decoupling' (although in English 'decoupling' would mean 'no coupling at all',
+people often use it to imply 'loose coupling' between entities)</p>
+</dd>
+</dl>
+</div>
+</body>
+</html>

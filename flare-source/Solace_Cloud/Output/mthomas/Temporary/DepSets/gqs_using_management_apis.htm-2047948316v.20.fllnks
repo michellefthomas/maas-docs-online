@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Management APIs"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://docs.solace.com/SEMP/Using-SEMP.htm" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-semp/curl/" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-semp/generate-semp-client-lib/" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-semp/java-client/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://docs.solace.com/SEMP/Using-SEMP.htm" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-semp/curl/" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-semp/generate-semp-client-lib/" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-semp/java-client/" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

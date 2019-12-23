@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="System Notifications Preferences"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/Resources/Images/Notification_Bell_Icon_with_Red_dot_indicator.png" />
+    <Link
+      Url="Content/Resources/Images/Notification_Console_under_user_avtar.png" />
+    <Link
+      Url="Content/Resources/Images/Notification_preference_details.png" />
+    <Link
+      Url="Content/Resources/Images/Notification_Preference_Settings.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/Resources/Images/Notification_Bell_Icon_with_Red_dot_indicator.png" />
+    <Link
+      Url="Content/Resources/Images/Notification_Console_under_user_avtar.png" />
+    <Link
+      Url="Content/Resources/Images/Notification_preference_details.png" />
+    <Link
+      Url="Content/Resources/Images/Notification_Preference_Settings.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

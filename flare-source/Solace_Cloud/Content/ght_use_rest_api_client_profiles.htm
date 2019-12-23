@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+<meta charset="utf-8" />
+
+<title>How to Use the Solace Cloud REST API to Manage Client Profiles</title>
+<link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="how-to-use-the-solace-cloud-rest-api-to-manage-client-profiles">
+<h1 class="title">How to Use the Solace Cloud REST API to Manage Client Profiles</h1>
+
+<p>The Solace PubSub+ Cloud REST APIs and API tokens now support service client profile management. This allows administrators to create, update, and delete client profiles on their services programmatically.</p>
+<p>In this blog post, I’ll show you how you can:</p>
+<ol class="arabic simple">
+<li><p>Grab an API token from Solace Cloud using your account</p></li>
+<li><p>Use that API token to create a new client profile on your service</p></li>
+<li><p>Retrieve the client profile info</p></li>
+<li><p>Update and delete the client profile</p></li>
+</ol>
+<p>The tutorial assumes you know what REST is and kind of know how to send REST requests using your favorite tool. But it's okay if you don’t. <a class="reference external" href="https://www.restapitutorial.com/lessons/whatisrest.html">Check out this REST intro</a> and then come back.</p>
+<div class="section" id="setup">
+<h1>Setup</h1>
+<p>What you'll need:</p>
+<ul class="simple">
+<li><p>A Solace PubSub+ Cloud Account.</p></li>
+<li><p>Administrator or Messaging Service Editor permissions for your account.</p></li>
+<li><p>A Solace PubSub+ Cloud service.</p></li>
+<li><p>A way to send REST messages from your dev environment. Postman (6.1.3 or greater) is a good choice if you want a visual REST API Dev Tool.</p></li>
+<li><p>Click this <a class="reference external" href="https://documenter.getpostman.com/view/4953125/SVmtzzzk">link to import the Postman collection</a> then hit the “Run in Postman” button.</p></li>
+</ul>
+<div class="section" id="installing-postman">
+<h2>Installing Postman</h2>
+<p>If you don’t have Postman installed when you hit “Run in Postman”, it will prompt you to install it (which doesn’t take long). Once Postman is installed, you will need to shut it down and click on the “Run in Postman” link again to import the Postman collection.
+If you prefer using CURL, the Postman link above provides the sample CURL commands.</p>
+</div>
+</div>
+<div class="section" id="create-an-api-token">
+<h1>Create an API Token</h1>
+<p>You need an API token to authenticate and authorize REST requests. When creating an API token, you will configure what permissions it has (i.e., a subset of the permissions you have when you log in to Solace Cloud)</p>
+<ol class="arabic simple">
+<li><p>Log in to Solace Cloud</p></li>
+<li><p>Click on your name in the right side of the menu bar to navigate to Token Management.</p></li>
+</ol>
+<a class="reference external image-reference" href="https://console.solace.cloud/api-tokens"><img alt="../img/userApi_1.png" src="Resources/Images/userApi_1.png" /></a>
+<ol class="arabic simple" start="3">
+<li><p>Click the “Create Token” button</p></li>
+</ol>
+<a class="reference external image-reference" href="https://console.solace.cloud/api-tokens"><img alt="../img/userApi_2.png" src="Resources/Images/userApi_2.png" /></a>
+<ol class="arabic simple" start="4">
+<li><p>Give the Token a name and enable these permissions:</p></li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li><p>Get Services (To retrieve the service's client profile details)</p></li>
+<li><p>Get Service Requests</p></li>
+<li><p>Create/Update/Delete Client Profiles</p></li>
+</ul>
+<p>Note: If you don't see these permissions listed in the Create Token menu, you may not have adequate permissions for your account. Touch base with your account administrator to request access, or contact PubSub+ Cloud support if there is a problem with your permissions.</p>
+</blockquote>
+<a class="reference external image-reference" href="https://console.solace.cloud/api-tokens/create"><img alt="../img/clientProfileApi_1.png" src="Resources/Images/clientProfileApi_1.png" /></a>
+<ol class="arabic simple" start="5">
+<li><p>Click the “Generate Token” button</p></li>
+<li><p>Copy the token to your clipboard by clicking the “Copy” button. <strong>Note:</strong> You will not see this again for security reasons. If you lose the token, you can always regenerate the token or create a new one.</p></li>
+<li><p>Set up Postman Collection Authorization – In order for Postman to send REST to Solace Cloud, you need to set the token you just created</p></li>
+</ol>
+<blockquote>
+<ol class="loweralpha simple">
+<li><p>Set the Postman Environment to <strong>Solace PubSub+ Cloud</strong> -- look in the drop down in the upper left part of the Postman window.</p></li>
+</ol>
+<img alt="../img/clientProfileApi_2.png" src="Resources/Images/clientProfileApi_2.png" />
+<ol class="loweralpha simple" start="2">
+<li><p>Edit the Solace PubSub+ Cloud environment and set the token by clicking on eye icon next to the environment drop down. Then click Edit next to <strong>Solace PubSub+ Environment</strong>.</p></li>
+<li><p>Paste the token in the value field of the <strong>apiToken</strong> key and then click Update.</p></li>
+</ol>
+<img alt="../img/clientProfileApi_3.png" src="Resources/Images/clientProfileApi_3.png" />
+</blockquote>
+<p>While you're at it, you can go ahead and fill in your serviceId as well. An easy way to find your serviceId is to open the service details on the Solace PubSub+ Cloud console and look at the end of the URL.</p>
+<a class="reference external image-reference" href="https://console.solace.cloud/services"><img alt="../img/clientProfileApi_4.png" src="Resources/Images/clientProfileApi_4.png" /></a>
+<p><strong>Great!</strong> Now we have a token, and Postman is set up to use it!</p>
+<p>Let’s use it to do some stuff.</p>
+</div>
+<div class="section" id="create-a-client-profile-using-the-rest-api">
+<h1>Create a Client Profile using the REST API</h1>
+<p>Now that we have a token, we can use it call the REST endpoint to create a client profile.</p>
+<ol class="arabic simple">
+<li><p>In the Postman Collection “<em>Solace Blogs – Solace Cloud Client Profile Management</em>”, select the request “<strong>Create a Client Profile</strong>”</p></li>
+</ol>
+<img alt="../img/clientProfileApi_5.png" src="Resources/Images/clientProfileApi_5.png" />
+<ol class="arabic simple" start="2">
+<li><p>Change the 'clientProfileName' field to the name you wish to give your client profile. The other properties can be changed to fit your needs. For more information on each setting, <a class="reference external" href="https://docs.solace.com/Configuring-and-Managing/Configuring-Client-Profiles.htm">see the Client Profile Configuration documentation</a></p></li>
+</ol>
+<img alt="../img/clientProfileApi_6.png" src="Resources/Images/clientProfileApi_6.png" />
+<p>You should see a JSON response confirming that the request was accepted.</p>
+<p>The request shouldn't take more than a second or two. You can check the status of the request using the "<strong>GET Service Request</strong>" method in the postman collection. The requestId should be added to your environment for you already, so just press send!</p>
+<img alt="../img/clientProfileApi_7.png" src="Resources/Images/clientProfileApi_7.png" />
+<p>Now that we see that our request is marked as 'completed', we can retrieve the created client profile from the API.</p>
+</div>
+<div class="section" id="get-client-profile-details">
+<h1>Get Client Profile Details</h1>
+<p>Now let’s retrieve the Client Profile.</p>
+<ol class="arabic simple">
+<li><p>In the Postman Collection “<em>Solace Blogs – Solace Cloud Client Profile Management</em>”, select the request “<strong>Get Client Profile</strong>”</p></li>
+</ol>
+<img alt="../img/clientProfileApi_8.png" src="Resources/Images/clientProfileApi_8.png" />
+<ol class="arabic simple" start="2">
+<li><p>The previous 'Create Client Profile' step should have already populated the required 'clientProfileName' variable in the path. Click on the Send button</p></li>
+</ol>
+<img alt="../img/clientProfileApi_9.png" src="Resources/Images/clientProfileApi_9.png" />
+<p>You should be able to see the details of the client profile in the bottom panel.</p>
+</div>
+<div class="section" id="update-a-client-profile">
+<h1>Update a Client Profile</h1>
+<p>Now that we've created and retrieved our client profile, we'll try changing some of its properties.</p>
+<ol class="arabic simple">
+<li><p>In the Postman Collection “<em>Solace Blogs – Solace Cloud Client Profile Management</em>”, select the request “<strong>Update a Client Profile</strong>”</p></li>
+</ol>
+<img alt="../img/clientProfileApi_10.png" src="Resources/Images/clientProfileApi_10.png" />
+<ol class="arabic simple" start="2">
+<li><p>In the body of the request, we can change 'allowGuaranteedMsgSendEnabled' and 'allowGuaranteedMsgReceiveEnabled' to false. the 'clientProfileName' property should line up with the name of the client profile you created earlier. This will update the client profile's existing properties when we send the request. Click on the Send button</p></li>
+</ol>
+<img alt="../img/clientProfileApi_11.png" src="Resources/Images/clientProfileApi_11.png" />
+<p>In the JSON response, we can see that the request has been accepted, and we can see the new value for the properties we updated. Once the request is finished, we can see the new values in the client profile with the '<strong>GET Client Profile</strong>'.</p>
+</div>
+<div class="section" id="delete-a-client-profile">
+<h1>Delete a Client Profile</h1>
+<p>Now that we've used our client profile to test out the APIs, we may want to clean up.</p>
+<ol class="arabic simple">
+<li><p>In the Postman Collection “<em>Solace Blogs – Solace Cloud Client Profile Management</em>”, select the request “<strong>Delete a Client Profile</strong>”</p></li>
+</ol>
+<img alt="../img/clientProfileApi_12.png" src="Resources/Images/clientProfileApi_12.png" />
+<ol class="arabic simple" start="2">
+<li><p>Click on the Send button</p></li>
+</ol>
+<p>You should receive a 202 Accepted response confirming that the delete request was received.</p>
+<p>After confirming that the request has completed, you should be able to call the <strong>GET Client Profile</strong> request once more. The response should indicate that the client profile is not found.</p>
+<img alt="../img/clientProfileApi_13.png" src="Resources/Images/clientProfileApi_13.png" />
+</div>
+</div>
+</body>
+</html>

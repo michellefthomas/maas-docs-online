@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="How to Create an Event Mesh in PubSub+ Cloud"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://solace.com/what-is-an-event-mesh" />
+    <Link
+      Url="Content/Resources/Images/eventmesh1.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh2.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh3.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh4.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh5.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh6.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh7.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh8.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh9.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh10.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh11.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh12.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh13.jpg" />
+    <Link
+      Url="Content/ght_event_mesh.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://solace.com/what-is-an-event-mesh" />
+    <Link
+      Url="Content/Resources/Images/eventmesh1.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh2.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh3.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh4.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh5.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh6.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh7.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh8.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh9.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh10.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh11.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh12.jpg" />
+    <Link
+      Url="Content/Resources/Images/eventmesh13.jpg" />
+    <Link
+      Url="Content/ght_event_mesh.htm#id1" />
+    <Link
+      Url="Content/ght_event_mesh.htm#id2" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

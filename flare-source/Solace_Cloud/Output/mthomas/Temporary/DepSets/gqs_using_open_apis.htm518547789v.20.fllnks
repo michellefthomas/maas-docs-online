@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Open Messaging APIs"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://cloud.solace.com/samples/solace-samples-mqtt/" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/MQTT/MQTT-get-started.htm" />
+    <Link
+      Url="https://www.eclipse.org/paho/" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-amqp-qpid-jms1/" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/AMQP/AMQP-get-started.htm" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/AMQP/Developer-Subjects.htm" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-amqp-qpid-jms2/" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-amqp-nodejs/" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-jms/" />
+    <Link
+      Url="https://docs.solace.com/Solace-JMS-API/jms-get-started-open.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/jms/index.html" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-rest-messaging/" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/REST-get-start.htm" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-openmama/" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/OMAMA-get-started.htm" />
+    <Link
+      Url="https://openmama.org/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://cloud.solace.com/samples/solace-samples-mqtt/" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/MQTT/MQTT-get-started.htm" />
+    <Link
+      Url="https://www.eclipse.org/paho/" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-amqp-qpid-jms1/" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/AMQP/AMQP-get-started.htm" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/AMQP/Developer-Subjects.htm" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id1" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-amqp-qpid-jms2/" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id4" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-amqp-nodejs/" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id7" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-jms/" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id8" />
+    <Link
+      Url="https://docs.solace.com/Solace-JMS-API/jms-get-started-open.htm" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id9" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/jms/index.html" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id10" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-rest-messaging/" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id11" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/REST-get-start.htm" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id12" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id13" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-openmama/" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id14" />
+    <Link
+      Url="https://docs.solace.com/Open-APIs-Protocols/OMAMA-get-started.htm" />
+    <Link
+      Url="Content/gqs_using_open_apis.htm#id15" />
+    <Link
+      Url="https://openmama.org/" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

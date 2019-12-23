@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Learning Material"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://www.udemy.com/fundamentals-of-solace-development/" />
+    <Link
+      Url="https://github.com/solacesamples/" />
+    <Link
+      Url="https://docs.solace.com/" />
+    <Link
+      Url="https://docs.solace.com/PubSub-Basics/Basics.htm" />
+    <Link
+      Url="https://docs.solace.com/Configuration.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://www.udemy.com/fundamentals-of-solace-development/" />
+    <Link
+      Url="https://github.com/solacesamples/" />
+    <Link
+      Url="https://docs.solace.com/" />
+    <Link
+      Url="https://docs.solace.com/PubSub-Basics/Basics.htm" />
+    <Link
+      Url="https://docs.solace.com/Configuration.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

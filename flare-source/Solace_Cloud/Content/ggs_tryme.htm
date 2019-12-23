@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta charset="utf-8" /><title>Trying Out Your Messaging Service</title>
+        <link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+    </head>
+    <body>
+        <div class="document" id="trying-out-your-messaging-service">
+            <h1 class="title">Trying Out Your Messaging Service</h1>
+            <p>The first thing you need to do with Solace PubSub+ Cloud is to <a href="#id1"><span class="problematic" id="id2">:doc:`create a messaging service &lt;ggs_signup&gt;`</span></a>. Assuming that you have now created a messaging service, this getting started tutorial will walk you through trying your new messaging service. You will try out the messaging service by connecting a publisher and a subscriber, subscribing to a topic, and publishing a matching message.</p>
+            <div class="system-message" id="id1">
+                <p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_getting_started\ggs_tryme.rst</span>, line 4); <em><a href="#id2">backlink</a></em></p>
+                <p>Unknown interpreted text role "doc".</p>
+            </div>
+            <div class="section" id="goals">
+                <h1>Goals</h1>
+                <p>The goal of this tutorial is to demonstrate the most basic messaging interaction using Solace messaging. This tutorial will show you:</p>
+                <ul class="simple">
+                    <li>
+                        <p>How to connect a publisher and a subscriber.</p>
+                    </li>
+                    <li>
+                        <p>How to subscribe to a topic.</p>
+                    </li>
+                    <li>
+                        <p>How to publish a matching message.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="section" id="step-1-go-to-try-me-tab">
+                <h1>Step 1: Go to Try Me! tab</h1>
+                <p>To access the Try Me! tab, follow the steps below.</p>
+                <ol class="arabic simple">
+                    <li>
+                        <p>Go to your messaging services page by selecting Services from the top navigation bar.</p>
+                    </li>
+                    <li>
+                        <p>Select your messaging service to navigate to messaging service details.</p>
+                    </li>
+                    <li>
+                        <p>On the service details page, navigate to the <strong>Try Me!</strong> tab.</p>
+                    </li>
+                </ol>
+                <img alt="../img/tryMe_1.png" src="Resources/Images/tryMe_1.png" />
+                <ol class="arabic simple" start="4">
+                    <li>
+                        <p>You will then see the Try Me! tab which has a JavaScript applications that you can use to exchange messages with your PubSub+ messaging service.</p>
+                    </li>
+                </ol>
+                <img alt="../img/tryMe_2.png" src="Resources/Images/tryMe_2.png" />
+            </div>
+            <div class="section" id="step-2-connect-publisher-and-subscriber">
+                <h1>Step 2: Connect publisher and subscriber</h1>
+                <p>The Try Me! tab is divided into the following sections.</p>
+                <ul class="simple">
+                    <li>
+                        <p>Donut charts at the top representing your messaging service metrics such as network usage, guaranteed messaging endpoints and the number of active connections.</p>
+                    </li>
+                    <li>
+                        <p>Two <a class="reference external" href="https://codepen.io/">CodePen</a> projects: publisher and subscriber.</p>
+                    </li>
+                </ul>
+                <p>To connect publisher and subscriber, follow the steps below.</p>
+                <ol class="arabic simple">
+                    <li>
+                        <p>Click on the connect button under step 1 on the publisher CodePen.</p>
+                    </li>
+                </ol>
+                <img src="Resources/Images/tryMe_3.png" alt="Publisher Connect Button" style="max-width: 400px;" />
+                <ol class="arabic simple" start="2">
+                    <li>
+                        <p>Click on the connect button under step 1 on the subscriber CodePen.</p>
+                    </li>
+                </ol>
+                <img src="Resources/Images/tryMe_4.png" alt="Subscriber Connect Button" style="max-width: 400px;" />
+                <ol class="arabic simple" start="3">
+                    <li>
+                        <p>Validate publisher and subscriber connection.</p>
+                    </li>
+                </ol>
+                <img alt="../img/tryMe_5.png" src="Resources/Images/tryMe_5.png" />
+                <ol class="arabic simple" start="4">
+                    <li>
+                        <p>Optionally: Select the 'show advanced settings' option to see the credentials that this application is using to connect. These credentials are found in the 'Connect' tab and can be used when connecting your other applications.</p>
+                    </li>
+                </ol>
+            </div>
+            <div class="section" id="step-3-subscribe-to-a-topic">
+                <h1>Step 3: Subscribe to a topic</h1>
+                <p>Subscribe to the <strong>try-me</strong> topic under step 2 on the subscriber window. You can also try other topics if you like. <a class="reference external" href="https://docs.solace.com/PubSub-Basics/Topic-Support-and-Syntax.htm">Click here</a>  to learn more about topics.</p>
+                <img src="Resources/Images/tryMe_6.png" alt="Subscriber Subscribed to Topic try-me" style="max-width: 400px;" />
+            </div>
+            <div class="section" id="step-4-publish-a-matching-message">
+                <h1>Step 4: Publish a matching message</h1>
+                <p>Publish a message with <strong>try-me</strong> as the topic name under step 2 on the publisher CodePen.</p>
+                <img src="Resources/Images/tryMe_7.png" alt="Publisher Published Message with Topic try-me" style="max-width: 400px;" />
+                <p>You should see that the message has been sent on you publisher and received by your CodePen.</p>
+                <img alt="../img/tryMe_8.png" src="Resources/Images/tryMe_8.png" />
+            </div>
+            <div class="section" id="step-6-learn-more">
+                <h1>Step 6: Learn more</h1>
+                <p>Well done. You've now exchanged with your messaging service. Want to learn more?</p>
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>Try one of the API samples in GitHub:</dt>
+                            <dd>
+                                <ul>
+                                    <li>
+                                        <p><a href="#id3"><span class="problematic" id="id4">:doc:`Solace Messaging APIs &lt;../group_quick_starts/gqs_using_messaging_apis&gt;`</span></a>.</p>
+                                        <div class="system-message" id="id3">
+                                            <p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_getting_started\ggs_tryme.rst</span>, line 85); <em><a href="#id4">backlink</a></em></p>
+                                            <p>Unknown interpreted text role "doc".</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p><a href="#id5"><span class="problematic" id="id6">:doc:`Open Messaging APIs &lt;../group_quick_starts/gqs_using_open_apis&gt;`</span></a>.</p>
+                                        <div class="system-message" id="id5">
+                                            <p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_getting_started\ggs_tryme.rst</span>, line 86); <em><a href="#id6">backlink</a></em></p>
+                                            <p>Unknown interpreted text role "doc".</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p>Learn how to manage your messaging service with our <a href="#id7"><span class="problematic" id="id8">:doc:`REST Management APIs &lt;../group_quick_starts/gqs_using_management_apis&gt;`</span></a>.</p>
+                        <div class="system-message" id="id7">
+                            <p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_getting_started\ggs_tryme.rst</span>, line 87); <em><a href="#id8">backlink</a></em></p>
+                            <p>Unknown interpreted text role "doc".</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Learn more about <a class="reference external" href="https://docs.solace.com/PubSub-Basics/Topic-Support-and-Syntax.htm">topic hierarchy</a>.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta charset="utf-8" /><title>Creating Your First Messaging Service</title>
+        <link href="Resources/Stylesheets/MainStyles-full-docs.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="document" id="creating-your-first-messaging-service">
+            <h1 class="title">Creating Your First Messaging Service</h1>
+            <p>To start integrating your applications with Solace PubSub+ Cloud, you must first create a messaging service. Once your messaging service is created, you can connect your applications with it
+by using a client library compatible with the Solace PubSub+ message broker. This getting started tutorial will walk you through creating an account on Solace PubSub+ Cloud,
+creating your first messaging service, and obtaining the connection information necessary to get your applications connected to Solace PubSub+ Cloud.</p>
+            <p>If you are new to <strong xmlns="http://www.w3.org/1999/xhtml">Messaging</strong>, you may wish to first read <MadCap:xref href="gc_messaging_concepts.htm">An Introduction to Messaging.</MadCap:xref></p>
+            <p>Otherwise, let's get started. You can skip to <MadCap:xref href="#Step2-create-msg-srvc">Step 2: Create a messaging service</MadCap:xref>  if you already have an account. This should not take more than <strong xmlns="http://www.w3.org/1999/xhtml">2 minutes</strong> and will only require a web browser.</p>
+            <div class="section" id="goals">
+                <h1>Goals</h1>
+                <p>The goal of this tutorial is to help you sign up for an account and create your first messaging service. This tutorial will show you:</p>
+                <ul class="simple">
+                    <li>
+                        <p>How to sign up for Solace PubSub+ Cloud.</p>
+                    </li>
+                    <li>
+                        <p>How to create a messaging service.</p>
+                    </li>
+                    <li>
+                        <p>How to find your messaging service's connection information.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="section" id="step-1-sign-up-for-solace-pubsub-cloud">
+                <h1>Step 1: Sign up for Solace PubSub+ Cloud</h1>
+                <p>To sign up for <strong xmlns="http://www.w3.org/1999/xhtml">Standard</strong> Solace PubSub+ Cloud, <a href="https://solace.com/try-it-now/" xmlns="http://www.w3.org/1999/xhtml">click here</a>. Click on the following video to view an example of signing up.</p>
+                <p>
+                    <object MadCap:HTML5Video="true" src="Resources/Videos/signup_new.webm" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="true" MadCap:Param_autoplay="true" xmlns="http://www.w3.org/1999/xhtml">
+                    </object>
+                </p>
+                <p>After you have submitted your details, you will receive a confirmation email. When you click the Activate button in the email, your account will be activated and you will be directed into the PubSub+ Cloud Console.</p>
+                <img src="Resources/Images/activation-email-new.jpeg" alt="PubSub+ Cloud Activate Button" style="max-width: 350px;" />
+            </div>
+            <div class="section" id="step-2-create-a-messaging-service">
+                <h1><a name="Step2-create-msg-srvc" xmlns="http://www.w3.org/1999/xhtml"></a>Step 2: Create a messaging service</h1>
+                <p>Once you have logged into the console, you will be brought to the My Services page. This page will show you all of the various messaging services you have created in Solace PubSub+ Cloud. To create your first messaging service, follow the steps below.</p>
+                <ol class="arabic simple">
+                    <li>
+                        <p>Press the Create Service button.</p>
+                    </li>
+                    <li>
+                        <p>You must then select a <strong>service type</strong>, choose the <strong>cloud provider and region</strong> where you would like to create your messaging service, and enter a <strong>service name</strong>.</p>
+                    </li>
+                    <li>
+                        <p>For your first messaging service, select any available service type. Solace PubSub+ Cloud gives you access to different service types that will give various levels of messaging performance. Note that some of these services types may be inaccessible prior to configuring a billing method for your account. Later on, you may request access to additional service types by selecting them and pressing the request access button.</p>
+                    </li>
+                    <li>Enter a messaging service name of <strong>My First Service</strong>. Messaging services are identified in the console by their name.</li>
+                    <li>
+                        <p>Press on the map and choose one of Solace PubSub+ Cloud's available providers and regions. If the region you prefer isn't available, you can contact Solace PubSub+ Cloud support and ask for your region to be supported. For your first messaging service, choose the region closest to where your application will run.</p>
+                    </li>
+                    <li>
+                        <p>You can then complete the process by pressing the Start Service button.</p>
+                        <p>To see these steps in action, watch the following video.</p>
+                        <p>
+                            <object MadCap:HTML5Video="true" src="Resources/Videos/createservice.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="true" MadCap:Param_autoplay="true" xmlns="http://www.w3.org/1999/xhtml">
+                            </object>
+                        </p>
+                    </li>
+                    <li xmlns="http://www.w3.org/1999/xhtml">When creating a service on a dedicated infrastructure (see <MadCap:xref href="gf_faqs.htm">Frequently Answered Questions</MadCap:xref> for a list), you will have the option to set the messaging VPN name, as shown below. This VPN name is the identifier used to connect to your service,
+and may include any of the following characters: alphanumeric, dashes, and underscores. To edit the system-generated VPN name, click on the pencil icon on the right of the VPN name text box and
+enter a valid VPN name.&#160;<p xmlns="http://www.w3.org/1999/xhtml"><img alt="../img/create-service-vpn-name-default.png" src="Resources/Images/create-service-vpn-name-default.png" xmlns="http://www.w3.org/1999/xhtml" /></p><p xmlns=""><img alt="../img/create-service-vpn-name-custom.png" src="Resources/Images/create-service-vpn-name-custom.png" xmlns="http://www.w3.org/1999/xhtml" /></p></li>
+                </ol>
+            </div>
+            <div class="section" id="step-3-find-your-messaging-service-s-connection-information">
+                <h1>Step 3: Find your messaging service's connection information</h1>
+                <p>Once you've pressed the Start Service button, the console will transition to the Service Details page for your messaging service. It may take some time for your messaging service to be created in the
+cloud, but once it is, you will see the status of your messaging service. The options you have when viewing your messaging service details are as follows:</p>
+                <ul class="simple">
+                    <li><strong>Status</strong>: View the overall status and health of your messaging service.</li>
+                    <li><strong>Connect</strong>: Find the connection information for your messaging service by selecting your language or protocol of choice.</li>
+                    <li><strong>Manage</strong>: Find the management options for your messaging service to perform tasks such as configuring queues or managing clients.</li>
+                    <li><strong>Configuration</strong>: View the details of the messaging service you created, such as the cloud provider, region, and connection limits.</li>
+                    <li><strong>Try Me!</strong>: Try your messaging service out using applications embedded from CodePen examples that allow you to publish and subscribe for messages on your messaging service.
+					<p><img alt="../img/service-detail.png" src="Resources/Images/service-detail.png" /></p></li>
+                </ul>
+                <p>Go to the Connect tab and choose the messaging protocol your application will be using. If you're not sure, you can also change the View By option to Language which allows you to browse by the language your client application is written in. Select the client library you would like to use and the required connection information can be viewed for that library. From here, you can explore more about your client library using the links under the learn more section.</p>
+                <div style="padding-bottom: 30px;">
+                    <img src="Resources/Images/connectivity_1.png" width="40%;" alt="Client Library Selection" style="padding-right: 40px;" />
+                    <img src="Resources/Images/connectivity_2.png" width="40%;" alt="Solace Java Api Connection Information" />
+                </div>
+            </div>
+            <div class="section" id="step-4-learn-more">
+                <h1>Step 4: Learn more</h1>
+                <p>Well done. You've now signed up and created your first messaging service. Want to learn more?</p>
+                <p>Try exchanging some messages with your new messaging service with this next quick start: <MadCap:xref href="ggs_tryme.htm">Trying Out Your Messaging Service</MadCap:xref></p>
+            </div>
+        </div>
+    </body>
+</html>

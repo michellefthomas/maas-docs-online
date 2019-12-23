@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="PubSub+ Cloud HA Overview"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://docs.solace.com/Overviews/SW-Broker-Redundancy-and-Fault-Tolerance.htm" />
+    <Link
+      Url="Content/Resources/Images/HA_Model_Overview.png" />
+    <Link
+      Url="Content/Resources/Images/PubSub_Cloud_Ha_Diagram.png" />
+    <Link
+      Url="Content/Resources/Images/HA_Service_How_1.png" />
+    <Link
+      Url="Content/Resources/Images/HA_Service_How_2.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://docs.solace.com/Overviews/SW-Broker-Redundancy-and-Fault-Tolerance.htm" />
+    <Link
+      Url="Content/Resources/Images/HA_Model_Overview.png" />
+    <Link
+      Url="Content/Resources/Images/PubSub_Cloud_Ha_Diagram.png" />
+    <Link
+      Url="Content/Resources/Images/HA_Service_How_1.png" />
+    <Link
+      Url="Content/Resources/Images/HA_Service_How_2.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

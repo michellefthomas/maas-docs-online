@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+<meta charset="utf-8" />
+
+<title>Creating a Queue</title>
+<link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="creating-a-queue">
+<h1 class="title">Creating a Queue</h1>
+
+<p>Once you have <a href="#id1"><span class="problematic" id="id2">:doc:`created a messaging service &lt;ggs_signup&gt;`</span></a> and <a href="#id3"><span class="problematic" id="id4">:doc:`tried it out &lt;ggs_tryme&gt;`</span></a>, you may want to create a queue so you can send and receive some guaranteed messages. This tutorial will walk you through creating a queue. You will also make sure the queue is working by connecting a publisher and publishing a matching message to that queue.</p>
+<div class="system-message" id="id1">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_getting_started\ggs_queue.rst</span>, line 4); <em><a href="#id2">backlink</a></em></p>
+<p>Unknown interpreted text role "doc".</p>
+</div>
+<div class="system-message" id="id3">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_getting_started\ggs_queue.rst</span>, line 4); <em><a href="#id4">backlink</a></em></p>
+<p>Unknown interpreted text role "doc".</p>
+</div>
+<div class="section" id="goals">
+<h1>Goals</h1>
+<p>The goal of this tutorial is to demonstrate how to create a queue and confirm that it is working. This tutorial will show you:</p>
+<ul class="simple">
+<li><p>How to create a queue</p></li>
+<li><p>How to map a topic to a queue</p></li>
+<li><p>How to publish a message a queue</p></li>
+</ul>
+</div>
+<div class="section" id="step-1-go-to-manage-tab">
+<h1>Step 1: Go to Manage tab</h1>
+<p>To access the Manage tab, follow the steps below.</p>
+<ol class="arabic simple">
+<li><p>Go to your messaging services page by selecting Services from the top navigation bar.</p></li>
+<li><p>Select your messaging service to navigate to messaging service details.</p></li>
+<li><p>On the service details page, navigate to the <strong>Management</strong> tab.</p></li>
+</ol>
+<img alt="../img/ggs_queue_mgmt_menu.png" src="Resources/Images/ggs_queue_mgmt_menu.png" />
+<ol class="arabic simple" start="4">
+<li><p>You will then see the Manage tab which provides access to tools for managing your messaging service.</p></li>
+</ol>
+<img alt="../img/ggs_queue_mgmt_window.png" src="Resources/Images/ggs_queue_mgmt_window.png" />
+</div>
+<div class="section" id="step-2-create-a-queue-using-the-queue-management-window">
+<h1>Step 2: Create a Queue using the Queue management window</h1>
+<p>From the Manage tab you can open the Queue management window where you can work with queues in your messaging service.</p>
+<p>To create a queue, follow the steps below.</p>
+<ol class="arabic simple">
+<li><p>Click on the <strong>Queues</strong> tile on the Manage tab. This will open the Queue management window in a new browser tab.</p></li>
+</ol>
+<img alt="../img/ggs_queue_mgmt_tile.png" src="Resources/Images/ggs_queue_mgmt_tile.png" />
+<ol class="arabic simple" start="2">
+<li><p>Click on the <strong>+Queue</strong> button.</p></li>
+</ol>
+<img alt="../img/ggs_queue_add.png" src="Resources/Images/ggs_queue_add.png" />
+<ol class="arabic simple" start="3">
+<li><p>Enter a name for your queue and click <strong>Create</strong>. You can use most characters in your queue name, including spaces. Some punctuation marks ('&lt;&gt;*?&amp;;) are not allowed. If you use a slash (/) in the name, it cannot be the first character.</p></li>
+</ol>
+<img src="../_static/img/ggs_queue_name.png" alt="Queue Name Entry" style="max-width: 600px;" /><ol class="arabic simple" start="4">
+<li><p>When prompted to adjust the queue settings, click on <strong>Apply</strong> to accept all the default settings.</p></li>
+</ol>
+<img alt="../img/ggs_queue_settings_apply.png" src="Resources/Images/ggs_queue_settings_apply.png" />
+<ol class="arabic simple" start="5">
+<li><p>Your new queue will be displayed on the summary page. The queue is empty, so you will see zeros (0) in both the Messages Queued columns.</p></li>
+</ol>
+<img alt="../img/ggs_queue_queue_summary.png" src="Resources/Images/ggs_queue_queue_summary.png" />
+</div>
+<div class="section" id="step-3-map-a-topic-to-queue">
+<h1>Step 3: Map a topic to queue</h1>
+<p>While it is possible to publish directly to a queue by its name, it is common to map a topic to a queue for more flexibility. In this case, mapping a topic to a queue will allow us to use the Try Me! tab to publish a message to our queue to test it out.</p>
+<p>To map a topic to a queue, follow the steps below.</p>
+<ol class="arabic simple">
+<li><p>From the queue summary, click anywhere in the row describing the queue to open the queue detail view.</p></li>
+</ol>
+<img alt="../img/ggs_queue_queue_click.png" src="Resources/Images/ggs_queue_queue_click.png" />
+<ol class="arabic simple" start="2">
+<li><p>From the queue detail view, click on the <strong>Subscriptions</strong> tab.</p></li>
+</ol>
+<img alt="../img/ggs_queue_subscriptions.png" src="Resources/Images/ggs_queue_subscriptions.png" />
+<ol class="arabic simple" start="3">
+<li><p>On the <strong>Subscriptions</strong> tab, click on the <strong>+Subscription</strong> button.</p></li>
+</ol>
+<img alt="../img/ggs_queue_add_sub.png" src="Resources/Images/ggs_queue_add_sub.png" />
+<ol class="arabic simple" start="4">
+<li><p>Enter the topic "try-me" as the subscription and click on the <strong>Create</strong> button. This is the default topic of the Try Me! tab.</p></li>
+</ol>
+<img alt="../img/ggs_queue_create_sub.png" src="Resources/Images/ggs_queue_create_sub.png" />
+<ol class="arabic simple" start="5">
+<li><p>The topic "try-me" is now mapped to the queue. Messages published to that topic will go into the queue.</p></li>
+</ol>
+</div>
+<div class="section" id="step-4-test-the-queue-using-the-try-me-tab">
+<h1>Step 4: Test the queue using the Try Me! tab</h1>
+<p>We will use the publisher <a class="reference external" href="https://codepen.io/">CodePen</a> project on the Try Me! tab to publish a message into our queue. We are not going to use a subscriber connection.</p>
+<p>To publish a message to the queue, follow the steps below.</p>
+<ol class="arabic simple">
+<li><p>Return to the main Solace Cloud browser tab and navigate to the <strong>Try Me!</strong> tab.</p></li>
+</ol>
+<img alt="../img/tryMe_1.png" src="Resources/Images/tryMe_1.png" />
+<ol class="arabic simple" start="2">
+<li><p>Click on the connect button under step 1 on the publisher CodePen.</p></li>
+</ol>
+<img src="../_static/img/tryMe_3.png" alt="Publisher Connect Button" style="max-width: 400px;" /><ol class="arabic simple" start="3">
+<li><p>Validate publisher connection.</p></li>
+</ol>
+<img src="../_static/img/ggs_queue_pub_connect.png" alt="Validate Publisher Button" style="max-width: 400px;" /><ol class="arabic simple" start="4">
+<li><p>Publish a message with <strong>try-me</strong> as the topic name under step 2 on the publisher CodePen.</p></li>
+</ol>
+<img src="../_static/img/tryMe_7.png" alt="Publisher Publish Button" style="max-width: 400px;" /></div>
+<div class="section" id="step-5-confirm-message-is-in-the-queue">
+<h1>Step 5: Confirm message is in the queue</h1>
+<p>We will use the Queue management tab to confirm that message we published in the previous step is now in the queue.</p>
+<p>To publish a message to the queue, follow the steps below.</p>
+<ol class="arabic simple">
+<li><p>Return to the main service management browser tab and display the queue summary view by clicking on <strong>Queues</strong> in the left menu.</p></li>
+</ol>
+<img alt="../img/ggs_queue_after_sub.png" src="Resources/Images/ggs_queue_after_sub.png" />
+<ol class="arabic simple" start="2">
+<li><p>In the summary page, you will see your queue. The Messages Queued columns will now show 1 message in the queue with a non-zero value of bytes. Congrats, your queue is working correctly.</p></li>
+</ol>
+<img alt="../img/ggs_queue_one_message.png" src="Resources/Images/ggs_queue_one_message.png" />
+<ol class="arabic simple" start="3">
+<li><p>If you want to see more details about the message in the queue, click on anywhere in the row describing the queue and then navigate to the <strong>Messages Queued</strong> tab. For example, you can see the message ID assigned to the message and the time when it was published.</p></li>
+</ol>
+<img alt="../img/ggs_queue_message_details.png" src="Resources/Images/ggs_queue_message_details.png" />
+</div>
+<div class="section" id="step-6-learn-more">
+<h1>Step 6: Learn more</h1>
+<p>Well done. You've now created a queue in your messaging service and published a message to it. Want to learn more?</p>
+<ul>
+<li><dl>
+<dt>Try one of the API samples in GitHub, including samples on working with queues:</dt>
+<dd><ul>
+<li><p><a href="#id5"><span class="problematic" id="id6">:doc:`Solace Messaging APIs &lt;../group_quick_starts/gqs_using_messaging_apis&gt;`</span></a>.</p>
+<div class="system-message" id="id5">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_getting_started\ggs_queue.rst</span>, line 147); <em><a href="#id6">backlink</a></em></p>
+<p>Unknown interpreted text role "doc".</p>
+</div>
+</li>
+<li><p><a href="#id7"><span class="problematic" id="id8">:doc:`Open Messaging APIs &lt;../group_quick_starts/gqs_using_open_apis&gt;`</span></a>.</p>
+<div class="system-message" id="id7">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_getting_started\ggs_queue.rst</span>, line 148); <em><a href="#id8">backlink</a></em></p>
+<p>Unknown interpreted text role "doc".</p>
+</div>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Learn how to manage your messaging service with our <a href="#id9"><span class="problematic" id="id10">:doc:`REST Management APIs &lt;../group_quick_starts/gqs_using_management_apis&gt;`</span></a>.</p>
+<div class="system-message" id="id9">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">c:\GitHub\MT-maas-docs-online\docs\group_getting_started\ggs_queue.rst</span>, line 149); <em><a href="#id10">backlink</a></em></p>
+<p>Unknown interpreted text role "doc".</p>
+</div>
+</li>
+<li><p>Learn more about queues and <a class="reference external" href="https://docs.solace.com/PubSub-Basics/Guaranteed-Messages.htm">guaranteed messages</a>.</p></li>
+</ul>
+</div>
+</div>
+</body>
+</html>

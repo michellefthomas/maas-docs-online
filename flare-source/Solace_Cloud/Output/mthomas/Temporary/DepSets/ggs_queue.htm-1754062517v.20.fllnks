@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Creating a Queue"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/ggs_queue.htm" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_mgmt_menu.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_mgmt_window.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_mgmt_tile.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_add.png" />
+    <Link
+      Url="_static/img/ggs_queue_name.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_settings_apply.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_queue_summary.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_queue_click.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_subscriptions.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_add_sub.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_create_sub.png" />
+    <Link
+      Url="https://codepen.io/" />
+    <Link
+      Url="Content/Resources/Images/tryMe_1.png" />
+    <Link
+      Url="_static/img/tryMe_3.png" />
+    <Link
+      Url="_static/img/ggs_queue_pub_connect.png" />
+    <Link
+      Url="_static/img/tryMe_7.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_after_sub.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_one_message.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_message_details.png" />
+    <Link
+      Url="https://docs.solace.com/PubSub-Basics/Guaranteed-Messages.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/ggs_queue.htm#id1" />
+    <Link
+      Url="Content/ggs_queue.htm#id3" />
+    <Link
+      Url="Content/ggs_queue.htm#id2" />
+    <Link
+      Url="Content/ggs_queue.htm#id4" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_mgmt_menu.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_mgmt_window.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_mgmt_tile.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_add.png" />
+    <Link
+      Url="_static/img/ggs_queue_name.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_settings_apply.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_queue_summary.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_queue_click.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_subscriptions.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_add_sub.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_create_sub.png" />
+    <Link
+      Url="https://codepen.io/" />
+    <Link
+      Url="Content/Resources/Images/tryMe_1.png" />
+    <Link
+      Url="_static/img/tryMe_3.png" />
+    <Link
+      Url="_static/img/ggs_queue_pub_connect.png" />
+    <Link
+      Url="_static/img/tryMe_7.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_after_sub.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_one_message.png" />
+    <Link
+      Url="Content/Resources/Images/ggs_queue_message_details.png" />
+    <Link
+      Url="Content/ggs_queue.htm#id5" />
+    <Link
+      Url="Content/ggs_queue.htm#id6" />
+    <Link
+      Url="Content/ggs_queue.htm#id7" />
+    <Link
+      Url="Content/ggs_queue.htm#id8" />
+    <Link
+      Url="Content/ggs_queue.htm#id9" />
+    <Link
+      Url="Content/ggs_queue.htm#id10" />
+    <Link
+      Url="https://docs.solace.com/PubSub-Basics/Guaranteed-Messages.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

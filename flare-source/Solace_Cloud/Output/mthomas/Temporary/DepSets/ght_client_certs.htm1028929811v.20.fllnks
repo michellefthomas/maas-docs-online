@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="How to Connect using Client Certificate Authentication"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://www.openssl.org/" />
+    <Link
+      Url="https://mqttfx.jensd.de/" />
+    <Link
+      Url="https://mqttfx.jensd.de/index.php/download" />
+    <Link
+      Url="https://wiki.openssl.org/index.php/Binaries" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_authentication.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_toggles.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_authority.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_addCA.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_CAname.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_CA_cert_text.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_pasted_cert.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_after_upload.png" />
+    <Link
+      Url="Content/Resources/Images/ght_client_back_arrow.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_manage_service.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_access_control.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_client_usernames.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_add_cu.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_cu_create.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_cu_apply.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_mqtt_tile.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_secured_mqtt_host.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_download_pem.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_mqtt_settings.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_broker_settings.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_self_signed_tab.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_ssl_settings.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_mqtt_connect.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_mqtt_connected.png" />
+    <Link
+      Url="Content/ght_client_certs.htm" />
+    <Link
+      Url="https://docs.solace.com/Configuring-and-Managing/Client-Authentication.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://www.openssl.org/" />
+    <Link
+      Url="https://mqttfx.jensd.de/" />
+    <Link
+      Url="https://mqttfx.jensd.de/index.php/download" />
+    <Link
+      Url="https://wiki.openssl.org/index.php/Binaries" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_authentication.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_toggles.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_authority.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_addCA.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_CAname.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_CA_cert_text.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_pasted_cert.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_after_upload.png" />
+    <Link
+      Url="Content/Resources/Images/ght_client_back_arrow.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_manage_service.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_access_control.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_client_usernames.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_add_cu.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_cu_create.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_cu_apply.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_mqtt_tile.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_secured_mqtt_host.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_download_pem.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_mqtt_settings.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_broker_settings.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_self_signed_tab.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_ssl_settings.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_mqtt_connect.png" />
+    <Link
+      Url="Content/Resources/Images/ght_cert_mqtt_connected.png" />
+    <Link
+      Url="Content/ght_client_certs.htm#id1" />
+    <Link
+      Url="Content/ght_client_certs.htm#id2" />
+    <Link
+      Url="Content/ght_client_certs.htm#id3" />
+    <Link
+      Url="Content/ght_client_certs.htm#id4" />
+    <Link
+      Url="Content/ght_client_certs.htm#id5" />
+    <Link
+      Url="Content/ght_client_certs.htm#id6" />
+    <Link
+      Url="https://docs.solace.com/Configuring-and-Managing/Client-Authentication.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Delete your account"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="../docutils/writers/html5_polyglot/plain.css" />
+    <Link
+      Url="img/delete_account_advanced_settings.png" />
+    <Link
+      Url="img/delete_account_confirmation_popup.png" />
+    <Link
+      Url="img/delete_account_success_msg.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="../docutils/writers/html5_polyglot/plain.css" />
+    <Link
+      Url="img/delete_account_advanced_settings.png" />
+    <Link
+      Url="img/delete_account_confirmation_popup.png" />
+    <Link
+      Url="img/delete_account_success_msg.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="../docutils/writers/html5_polyglot/plain.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

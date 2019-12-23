@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Solace Messaging APIs"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://docs.solace.com/Configuration.htm" />
+    <Link
+      Url="_static/img/c-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-c/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/C-API/c-api-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/index.html" />
+    <Link
+      Url="_static/img/macos-logo.png" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/iOS-API/iOS-api-home.htm" />
+    <Link
+      Url="_static/img/java-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-java/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/Java-API/java-api-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/index.html" />
+    <Link
+      Url="_static/img/javarto-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-javarto/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/JavaRTO-API/java-rto-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/index.html" />
+    <Link
+      Url="_static/img/javascript-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-javascript/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/JavaScript-API/js-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/js/index.html" />
+    <Link
+      Url="_static/img/nodejs-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-nodejs/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/NodeJS-API/node-js-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/nodejs/index.html" />
+    <Link
+      Url="_static/img/dotnet-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-dotnet/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/dotNet-API/net-api-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/html/98265723-512a-4f99-96e9-ea0d592bcb99.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="https://docs.solace.com/Configuration.htm" />
+    <Link
+      Url="_static/img/c-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-c/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/C-API/c-api-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/index.html" />
+    <Link
+      Url="_static/img/macos-logo.png" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/iOS-API/iOS-api-home.htm" />
+    <Link
+      Url="_static/img/java-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-java/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/Java-API/java-api-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/index.html" />
+    <Link
+      Url="_static/img/javarto-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-javarto/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/JavaRTO-API/java-rto-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/index.html" />
+    <Link
+      Url="_static/img/javascript-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-javascript/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/JavaScript-API/js-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/js/index.html" />
+    <Link
+      Url="_static/img/nodejs-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-nodejs/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/NodeJS-API/node-js-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/nodejs/index.html" />
+    <Link
+      Url="_static/img/dotnet-logo.png" />
+    <Link
+      Url="https://solace.com/samples/solace-samples-dotnet/" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/dotNet-API/net-api-home.htm" />
+    <Link
+      Url="https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/html/98265723-512a-4f99-96e9-ea0d592bcb99.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

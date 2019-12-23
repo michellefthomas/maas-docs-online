@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Creating Your First Messaging Service"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/gc_messaging_concepts.htm" />
+    <Link
+      Url="Content/ggs_signup.htm" />
+    <Link
+      Url="https://solace.com/try-it-now/" />
+    <Link
+      Url="Content/Resources/Videos/signup_new.webm" />
+    <Link
+      Url="Content/Resources/Images/activation-email-new.jpeg" />
+    <Link
+      Url="Content/Resources/Videos/createservice.mp4" />
+    <Link
+      Url="Content/gf_faqs.htm" />
+    <Link
+      Url="Content/Resources/Images/create-service-vpn-name-default.png" />
+    <Link
+      Url="Content/Resources/Images/create-service-vpn-name-custom.png" />
+    <Link
+      Url="Content/Resources/Images/service-detail.png" />
+    <Link
+      Url="Content/Resources/Images/connectivity_1.png" />
+    <Link
+      Url="Content/Resources/Images/connectivity_2.png" />
+    <Link
+      Url="Content/ggs_tryme.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/gc_messaging_concepts.htm" />
+    <Link
+      Url="Content/ggs_signup.htm#Step2-create-msg-srvc" />
+    <Link
+      Url="https://solace.com/try-it-now/" />
+    <Link
+      Url="Content/Resources/Videos/signup_new.webm" />
+    <Link
+      Url="Content/Resources/Images/activation-email-new.jpeg" />
+    <Link
+      Url="Content/Resources/Videos/createservice.mp4" />
+    <Link
+      Url="Content/gf_faqs.htm" />
+    <Link
+      Url="Content/Resources/Images/create-service-vpn-name-default.png" />
+    <Link
+      Url="Content/Resources/Images/create-service-vpn-name-custom.png" />
+    <Link
+      Url="Content/Resources/Images/service-detail.png" />
+    <Link
+      Url="Content/Resources/Images/connectivity_1.png" />
+    <Link
+      Url="Content/Resources/Images/connectivity_2.png" />
+    <Link
+      Url="Content/ggs_tryme.htm" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Step2-create-msg-srvc" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

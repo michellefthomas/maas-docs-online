@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="How to Configure Authentication"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/Resources/Images/service_management.png" />
+    <Link
+      Url="Content/Resources/Images/service_authentication.png" />
+    <Link
+      Url="Content/Resources/Images/certificate_authority.png" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/Developer-Guide/Defining-Client-Authentication.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+    <Link
+      Url="Content/Resources/Images/service_management.png" />
+    <Link
+      Url="Content/Resources/Images/service_authentication.png" />
+    <Link
+      Url="Content/Resources/Images/certificate_authority.png" />
+    <Link
+      Url="https://docs.solace.com/Solace-PubSub-Messaging-APIs/Developer-Guide/Defining-Client-Authentication.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles-full-docs.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

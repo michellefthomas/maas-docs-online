@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="_Skins_HTML5___Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="How To">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <meta charset="utf-8" /><title>How to Use the Solace Cloud REST API to Manage Services</title>
+        <link rel="stylesheet" href="Resources/Stylesheets/MainStyles-full-docs.css" type="text/css" />
+        <script src="../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="index.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="document" id="how-to-use-the-solace-cloud-rest-api-to-manage-services">
+                                        <h1 class="title">How to Use the Solace Cloud REST API to Manage Services</h1>
+                                        <p>If you’re familiar with developing and deploying in a cloud environment, a common practice is to bring up a cloud resource using a cloud provider’s APIs, use that resource, then remove it when you are done. This is all accomplished programmatically, avoiding the need to start or stop the resources manually using the cloud provider’s user interface.</p>
+                                        <p>For example, a common flow for testing an app would be to:</p>
+                                        <ol class="arabic simple">
+                                            <li value="1">
+                                                <p>Bring up a cloud server (e.g., an AWS EC2) programmatically</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Install and test your app on that cloud server</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Tear down the cloud server when your testing is complete</p>
+                                            </li>
+                                        </ol>
+                                        <p>Solace PubSub+ Cloud has introduced REST APIs and REST API token support (in beta). This means developers can use Solace Cloud’s REST APIs to create PubSub+ Cloud messaging services and extract information about them programmatically.</p>
+                                        <p>In this blog post, I’ll show you how you can:</p>
+                                        <ol class="arabic simple">
+                                            <li value="1">
+                                                <p>Grab an API token from Solace Cloud using your account</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Use that API token to create a messaging service via Solace Cloud’s REST APIs</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Use the REST APIs to pull out the MQTT connection details for the new messaging service (which could be used in your apps to send/receive MQTT messages)</p>
+                                            </li>
+                                        </ol>
+                                        <p>Assumptions:</p>
+                                        <ul class="simple">
+                                            <li value="1">
+                                                <p>You know what REST is and kind of know how to send REST requests using your favorite tool.</p>
+                                            </li>
+                                        </ul>
+                                        <p>But if you don’t, <a class="reference external" href="https://www.restapitutorial.com/lessons/whatisrest.html">check out this REST intro</a> and then come back.</p>
+                                        <div class="section" id="setup">
+                                            <h1>Setup</h1>
+                                            <ul class="simple">
+                                                <li value="1">
+                                                    <p><a class="reference external" href="https://solace.com/cloud/">Sign up for Solace Cloud</a> if you haven’t already -- don’t worry, it’s free.</p>
+                                                </li>
+                                                <li value="2">
+                                                    <p>You need a way to send REST messages from your dev environment. Postman (6.1.3 or greater) is a good choice if you want a visual REST API Dev Tool</p>
+                                                </li>
+                                                <li value="3">
+                                                    <p>Click this <a class="reference external" href="https://documenter.getpostman.com/view/3081638/RWM8SWza">link to import the Postman collection</a> then hit the “Run in Postman” button.</p>
+                                                </li>
+                                            </ul>
+                                            <div class="section" id="installing-postman">
+                                                <h2>Installing Postman</h2>
+                                                <p>If you don’t have Postman installed when you hit “Run in Postman”, it will prompt you to install it (which doesn’t take long). Once Postman is installed, you will need to shut it down and click on the “Run in Postman” link again to import the Postman collection.
+If you prefer using CURL, the Postman link above provides the sample CURL commands.</p>
+                                            </div>
+                                        </div>
+                                        <div class="section" id="create-an-api-token">
+                                            <h1>Create an API Token</h1>
+                                            <p>You need an API token to authenticate and authorize REST requests. When creating an API token, you will configure what permissions it has (i.e., a subset of the permissions you have when you log in to Solace Cloud)</p>
+                                            <ol class="arabic simple">
+                                                <li value="1">
+                                                    <p>Log in to Solace Cloud</p>
+                                                </li>
+                                                <li value="2">
+                                                    <p>Click on your name in the right side of the menu bar to navigate to Token Management.</p>
+                                                </li>
+                                            </ol><a class="reference external image-reference" href="https://console.solace.cloud/api-tokens"><img alt="../img/use_api_tokens_1.jpg" src="Resources/Images/use_api_tokens_1.jpg" /></a>
+                                            <ol class="arabic simple" start="3">
+                                                <li value="3">
+                                                    <p>Click the “Create Token” button</p>
+                                                </li>
+                                            </ol><a class="reference external image-reference" href="https://console.solace.cloud/api-tokens"><img alt="../img/use_api_tokens_2.jpg" src="Resources/Images/use_api_tokens_2.jpg" /></a>
+                                            <ol class="arabic simple" start="4">
+                                                <li value="4">
+                                                    <p>Give the Token a name and enable these permissions:</p>
+                                                </li>
+                                            </ol>
+                                            <blockquote>
+                                                <ul class="simple">
+                                                    <li value="1">
+                                                        <p>Get My Services</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Create Services</p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>Delete My Services</p>
+                                                    </li>
+                                                </ul>
+                                            </blockquote><a class="reference external image-reference" href="https://console.solace.cloud/api-tokens/create"><img alt="../img/use_api_tokens_3.jpg" src="Resources/Images/use_api_tokens_3.jpg" /></a>
+                                            <ol class="arabic simple" start="5">
+                                                <li value="5">
+                                                    <p>Click the “Generate Token” button</p>
+                                                </li>
+                                                <li value="6">
+                                                    <p>Copy the token to your clipboard by clicking the “Copy” button. <strong>Note:</strong> You will not see this again for security reasons. If you lose the token, you can always regenerate the token or create a new one.</p>
+                                                </li>
+                                                <li value="7">
+                                                    <p>Set up Postman Collection Authorization – In order for Postman to send REST to Solace Cloud, you need to set the token you just created</p>
+                                                </li>
+                                            </ol>
+                                            <blockquote>
+                                                <ol class="loweralpha simple">
+                                                    <li value="1">
+                                                        <p>Set the Postman Environment to <strong>Solace PubSub+ Cloud</strong> -- look in the drop down in the upper left part of the Postman window.</p>
+                                                    </li>
+                                                </ol>
+                                                <img alt="../img/use_api_tokens_4.jpg" src="Resources/Images/use_api_tokens_4.jpg" />
+                                                <ol class="loweralpha simple" start="2">
+                                                    <li value="2">
+                                                        <p>Edit the Solace PubSub+ Cloud environment and set the token by clicking on eye icon next to the environment drop down. Then click Edit next to <strong>Solace PubSub+ Environment</strong>.</p>
+                                                    </li>
+                                                </ol>
+                                                <img alt="../img/use_api_tokens_5.jpg" src="Resources/Images/use_api_tokens_5.jpg" />
+                                                <ol class="loweralpha simple" start="3">
+                                                    <li value="3">
+                                                        <p>Paste the token in the value field of the <strong>apiToken</strong> key. You must also select a service type and service class. For a free service, set the <strong>serviceTypeId</strong> to <strong>free</strong> and the <strong>serviceClassId</strong> to <strong>free</strong> as well. Once all the values are entered, click Update.</p>
+                                                    </li>
+                                                </ol>
+                                                <img alt="../img/use_api_tokens_6.jpg" src="Resources/Images/use_api_tokens_6.jpg" />
+                                            </blockquote>
+                                            <p><strong>Great!</strong> Now we have a token, and Postman is set up to use it!</p>
+                                            <p>Let’s use it to do some stuff.</p>
+                                        </div>
+                                        <div class="section" id="create-a-messaging-service-using-the-rest-api">
+                                            <h1>Create a Messaging Service using the REST API</h1>
+                                            <p>Now that we have a token, we can use it call the service REST endpoint to create a messaging service.</p>
+                                            <ol class="arabic simple">
+                                                <li value="1">
+                                                    <p>In the Postman Collection “<em>Solace Blogs – Create Messaging Service</em>”, select the request “<strong>POST Create Messaging Service</strong>”</p>
+                                                </li>
+                                            </ol>
+                                            <img alt="../img/use_api_tokens_7.jpg" src="Resources/Images/use_api_tokens_7.jpg" />
+                                            <ol class="arabic simple" start="2">
+                                                <li value="2">
+                                                    <p>Click on the Send button,</p>
+                                                </li>
+                                            </ol>
+                                            <img alt="../img/use_api_tokens_8.jpg" src="Resources/Images/use_api_tokens_8.jpg" />
+                                            <p>You should see a JSON response confirming that a messaging service was created.</p>
+                                            <p>Now go back to Solace Cloud and you should see your service.</p><a class="reference external image-reference" href="https://console.solace.cloud/api-tokens"><img alt="../img/use_api_tokens_9.jpg" src="Resources/Images/use_api_tokens_9.jpg" /></a>
+                                            <p>Awesome! You have just created a messaging service.</p>
+                                        </div>
+                                        <div class="section" id="get-the-connection-details-for-the-messaging-service">
+                                            <h1>Get the Connection Details for the Messaging Service</h1>
+                                            <p>Now let’s retrieve the messaging service connection details. The Solace PubSub+ Cloud Messaging Service supports almost all of the messaging protocols under the sun! Let’s pick MQTT for the sake of this exercise, but this API provides you with all supported protocols.</p>
+                                            <ol class="arabic simple">
+                                                <li value="1">
+                                                    <p>In the Postman Collection “<em>Solace PubSub+ Cloud – Create Messaging Services</em>”, select the request <strong>Get Messaging Service</strong>.</p>
+                                                </li>
+                                            </ol>
+                                            <img alt="../img/use_api_tokens_10.jpg" src="Resources/Images/use_api_tokens_10.jpg" />
+                                            <ol class="arabic simple" start="2">
+                                                <li value="2">
+                                                    <p>Click on the Send button</p>
+                                                </li>
+                                            </ol>
+                                            <img alt="../img/use_api_tokens_11.jpg" src="Resources/Images/use_api_tokens_11.jpg" />
+                                            <p>You should be able to see the MQTT connection details in the JSON response.</p>
+                                            <p>Now you can use the connection details to start sending MQTT messages to your new messaging service from your app.</p>
+                                            <p>Cool.</p>
+                                            <p>You now have everything you need to create Solace PubSub+ Cloud messaging services in a cloud stylie way.</p>
+                                            <p>These REST APIs are still BETA, so any feedback is welcome. Please use the feedback section of the Support tab in the Solace Cloud console to let us know what you think.</p>
+                                            <p>Have fun!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>
